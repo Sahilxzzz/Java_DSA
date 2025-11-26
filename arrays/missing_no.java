@@ -3,20 +3,15 @@ import java.util.*;
 
 public class missing_no{
     static int missingno(int n , int arr[]){
-        int i , j;
-        
-        for(i=1;i<=n;i++){
-            int flag = 0;
-            for(j=0;j<n-1;j++){
-                if(arr[j] == i){
-                    flag = 1;
-                    break;
-                }
-            }
-            if(flag == 0)
+        int hash [] = new int[n+1];
+        for (int i = 0;i<n-1;i++){
+            hash[arr[i]] =1;
+        }
+        for (int i=1;i<=n;i++){
+            if(hash[i] == 0)
             return i;
         }
-        return i;
+        return -1 ;
     }
     public static void main (String [] args){
         Scanner sc = new Scanner(System.in);
