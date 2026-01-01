@@ -1,38 +1,33 @@
 package arrays;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
-class longest_consecutive_sequence {
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        if (nums.length == 0) return 0;
 
-    public int longestConsecSeq(int[] arr) {
-        Arrays.sort(arr);
-        int n = arr.length;
-        int ls = Integer.MIN_VALUE;
-        int cnt = 0;
-        int longest = 1;
-        for (int i = 0; i < n; i++) {
-            if (arr[i] - 1 == ls) {
-                cnt += 1;
-                ls = arr[i];
-            } else if (arr[i] != ls) {
-                cnt = 1;
-                ls = arr[i];
-            }
-            longest = Math.max(longest, cnt);
+        Set<Integer> st = new HashSet<>();
+        for (int num : nums) {
+            st.add(num);
         }
 
-    return longest;
+        int longest = 0;
 
-    };
+        for (int it : st) {
+            // start only if it is the beginning of a sequence
+            if (!st.contains(it - 1)) {
+                int cnt = 1;
+                int x = it;
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+                while (st.contains(x + 1)) {
+                    x++;
+                    cnt++;
+                }
 
-        int[] arr = { 100, 4, 102, 101, 2, 3, 1 };
-
-        longest_consecutive_sequence solution = new longest_consecutive_sequence();
-        int ans = solution.longestConsecSeq(arr);
-
-        System.out.println(ans);
+                longest = Math.max(longest, cnt);
+            }
+        }
+        return longest;
     }
 }
