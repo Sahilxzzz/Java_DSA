@@ -2,6 +2,9 @@ package arrays;
 
 class longestSubarray {
     public int longestSubarray(int[] arr, int k) {
+        //int n = arr.length;
+        if (arr.length == 0) return 0;
+
         int i = 0, sum = 0, maxLength = 0;
 
         for (int j= 0; j < arr.length; j++) {
