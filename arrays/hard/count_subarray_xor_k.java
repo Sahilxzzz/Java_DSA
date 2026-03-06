@@ -10,7 +10,7 @@ public class count_subarray_xor_k {
         for(int i=0;i<n;i++){
             for(int j=i;j<n;j++){
                 int xorVal = 0;
-                for(int k = i;k<j;k++){
+                for(int k = i;k<=j;k++){
                     xorVal ^= arr[k]; 
                    
                 }
@@ -22,6 +22,7 @@ public class count_subarray_xor_k {
         }
 
         return count;
+
     }
     public static void main(String[] args) {
         // Input array
