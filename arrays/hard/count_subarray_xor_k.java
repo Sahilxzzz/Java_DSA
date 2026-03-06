@@ -8,10 +8,10 @@ public class count_subarray_xor_k {
         int n = arr.length;
         int count = 0;
         for(int i=0;i<n;i++){
+             int xorVal = 0;
             for(int j=i;j<n;j++){
-                int xorVal = 0;
-                for(int k = i;k<=j;k++){
-                    xorVal ^= arr[k]; 
+               
+                    xorVal ^= arr[j]; 
                    
                 }
                  if(xorVal == B){
@@ -19,7 +19,7 @@ public class count_subarray_xor_k {
                 }
                 
             }
-        }
+        
 
         return count;
 
