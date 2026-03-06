@@ -1,3 +1,5 @@
+package arrays.hard;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -35,6 +37,11 @@ class Solution {
         }
       }
       return new ArrayList <>(result);
+    }
+
+    public char[] countSubarraysXOR(int[] arr, int b) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'countSubarraysXOR'");
     }
 }
 }
