@@ -1,4 +1,4 @@
-package arrays.hard;
+package arrays;
 
 
 public class pascal_traingle {
