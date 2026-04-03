@@ -1,7 +1,4 @@
 package arrays.hard;
-import java.util.*;
-
-import arrays.hard.four_sum.Solution;
 
 public class count_subarray_xor_k {
     public int countSubarraysXOR(int []arr,int B){        
