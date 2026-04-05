@@ -1,3 +1,4 @@
+package arrays.hard;
 public class merge_arrays_sorted {
     
     public void merge(int[] nums1, int m, int[] nums2, int n) {

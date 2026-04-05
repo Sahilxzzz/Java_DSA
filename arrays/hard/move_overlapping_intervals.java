@@ -1,3 +1,4 @@
+package arrays.hard;
 import java.util.*;
 
 class Solution {

@@ -1,3 +1,4 @@
+package arrays.hard;
 import java.util.*;
 
 public class longest_subarry_with_sum_zero {
