@@ -16,5 +16,7 @@ It currently includes:
 - **Java Basics** — syntax, variables, loops, conditionals, etc.
 - **OOP Concepts** — classes, objects, inheritance, polymorphism, abstraction, encapsulation.
 - **DSA** — algorithms and data structures implemented in Java (ongoing).
+- **ARRAYS** - Easy, Medium and hard
+- **BinarySearch** - Search Algorithm and Problems on Binary search
 
 I will be updating this repository **daily** with new concepts, explanations, and code examples.
