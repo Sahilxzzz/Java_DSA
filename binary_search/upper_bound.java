@@ -1,5 +1,3 @@
-package binary_search;
-
 public class upper_bound {
     int upperBound(int[] arr, int target) {
         // code here

@@ -1,5 +1,3 @@
-package binary_search;
-
 public class search_insert {
     public int searchInsert(int[] nums, int target) {
         int n = nums.length;

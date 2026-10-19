@@ -1,4 +1,4 @@
-package binary_search;
+
 
 public class find_minimum_element {
     public int findMin(int[] nums) {

@@ -1,5 +1,3 @@
-package binary_search;
-
 class Solution {
     public int[] searchRange(int[] arr, int target) {
         int n =arr.length;

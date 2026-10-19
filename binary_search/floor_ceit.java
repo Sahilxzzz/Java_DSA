@@ -1,5 +1,3 @@
-package binary_search;
-
 import java.util.*;
 public class floor_ceit {
     // Function to find floor

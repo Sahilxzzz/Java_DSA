@@ -1,6 +1,3 @@
-package binary_search;
-
-
 public class search_element_rotated_array {
 
     // Function to search target in rotated sorted array using binary search

@@ -1,4 +1,3 @@
-package binary_search;
 
 public class search_element_in_duplicate_array {
      public int search(int[] nums, int target) {

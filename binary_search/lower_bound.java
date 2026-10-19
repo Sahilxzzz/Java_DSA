@@ -1,5 +1,3 @@
-package binary_search;
-
 public class lower_bound {
         int lowerBound(int[] arr, int target) {
         // code here

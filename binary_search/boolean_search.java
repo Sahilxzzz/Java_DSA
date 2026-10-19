@@ -1,5 +1,3 @@
-package binary_search;
-
 public class boolean_search {
     public boolean search(int[] nums, int target) {
         int low = 0, high = nums.length-1;
