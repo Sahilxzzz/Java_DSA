@@ -18,5 +18,6 @@ It currently includes:
 - **DSA** — algorithms and data structures implemented in Java (ongoing).
 - **ARRAYS** - Easy, Medium and hard
 - **BinarySearch** - Search Algorithm and Problems on Binary search
+- **Strings** - Easy, Medium & Hard
 
 I will be updating this repository **daily** with new concepts, explanations, and code examples.
