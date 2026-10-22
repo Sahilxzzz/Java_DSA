@@ -1,3 +1,5 @@
+package strings;
+
 class Solution {
     String removeVowels(String s) {
         // code here
